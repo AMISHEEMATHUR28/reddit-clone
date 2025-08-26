@@ -1,0 +1,18 @@
+Hey ! We'll be working on a clone similar to Reddit. 
+
+~ TEAM MEMBERS ~
+  - Pranav Verma
+  - Praful Nigam
+  - Priyanshu Dawar
+  - Pulkit Gupta
+
+This Project is responsive & based on HTML, CSS & Js.
+Project Completed on -> 29.08.2023
+
+Signing Off.
+
+
+
+
+
+FEEL FREE TO CONTRIBUTE : )

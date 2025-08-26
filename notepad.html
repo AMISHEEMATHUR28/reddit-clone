@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Notepad</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        #notepad {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+        }
+
+        textarea {
+            width: 100%;
+            height: 500px;
+            border: none;
+        }
+
+        #save-button,
+        #clear-button {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 5px 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        #save-button{
+            margin-left: 45%;
+        }
+
+        #clear-button {
+            margin-left: 105;
+            background-color: #dc3545;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center; margin-top: 5%;">NOTEPAD</h1>
+    <div id="notepad">
+        <textarea id="content"></textarea>
+        <button id="save-button">Save</button>
+        <button id="clear-button">Clear</button>
+    </div>
+
+    <script>
+        const contentTextarea = document.getElementById('content');
+        const saveButton = document.getElementById('save-button');
+        const clearButton = document.getElementById('clear-button');
+
+        // Check if there's existing content in local storage
+        const storedContent = localStorage.getItem('notepad_content');
+        if (storedContent) {
+            contentTextarea.value = storedContent;
+        }
+
+        // Save content to local storage when the Save button is clicked
+        saveButton.addEventListener('click', () => {
+            const content = contentTextarea.value;
+            localStorage.setItem('notepad_content', content);
+            alert('Content saved successfully.');
+        });
+
+        // Clear content and local storage when the Clear button is clicked
+        clearButton.addEventListener('click', () => {
+            contentTextarea.value = '';
+            localStorage.removeItem('notepad_content');
+            alert('Content cleared.');
+        });
+    </script>
+</body>
+</html>

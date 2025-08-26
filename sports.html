@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/83d9751226.js" crossorigin="anonymous"></script>
+    <title>Reddit - Dive Into Everything</title>
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="demo.css">
+
+</head>
+
+<body>
+    <div class="mobile-container">
+
+        <!-- Top Navigation Menu -->
+        <div class="topnav">
+            <a href="home.html" class="active">Home</a>
+            <div id="myLinks">
+                <a href="gaming.html">Gaming</a>
+                <a href="sports.html">Sports</a>
+                <a href="anime.html">Anime</a>
+                <a href="celebrity.html">Celebrity</a>
+                <a href="music.html">Music</a>
+                <a href="aboutus.html">About Us</a>
+            </div>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+        <!-- End smartphone / tablet look -->
+        </div>
+        
+
+    <div class="header">
+        <div class="container1">
+            <i class="fa-brands fa-reddit fa-2x" style="color:rgb(255, 60, 0);margin-left: 20px;"></i>
+            <h3 class="titlereddit">reddit</h3>
+            <form>
+                <i class="fa-solid fa-magnifying-glass"
+                    style="position: absolute;margin-left: 220px;margin-top: 15px; color: #242424;"></i>
+                <input type="text" class="search" Name="fname" placeholder=" Search Reddit" style="color: black;">
+            </form>
+            <button class="getapp"><i class="fa-solid fa-qrcode" style="margin-right: 4px;"></i><a
+                    style="text-decoration: none; color: rgb(255, 255, 255);" href="qr.html"><b>Get App</b></a></button>
+            <button class="github"><i class="fa-brands fa-github"
+                    style="margin-right: 8px; color: rgb(255, 255, 255);"></i><b><a
+                        href="https://github.com/prafulnigam/Reddit-Clone"
+                        style="color: white; text-decoration: none;">Git Hub</a></b></button>
+        </div>
+    </div>
+
+    <div class="categoriesblock">
+        <h2 class="home"><i class="fa-solid fa-house" style="padding: 15px;"></i><a
+                style="color: rgb(255, 255, 255); text-decoration: none;" href="home.html">Home</a></h2>
+        <div class="categoriesname">
+            <h5 class="gaming"><i class="fa-solid fa-gamepad  "
+                    style="margin-left: -40px;position: absolute;font-size: 1.3em"></i><a
+                    style="color: rgb(255, 255, 255); text-decoration: none;" href="gaming.html">Gaming</a></h5>
+            <h5 class="sports"> <i class="fa-solid fa-futbol"
+                    style="margin-left: -40px;position: absolute;font-size: 1.3em"></i><a
+                    style="color: rgb(255, 255, 255); text-decoration: none;" href="sports.html">Sports</a></h5>
+            <h5 class="anime"><i class="fa-solid fa-tv"
+                    style="margin-left: -40px;position: absolute;font-size: 1.3em"></i><a
+                    style="color: rgb(255, 255, 255); text-decoration: none;" href="anime.html">Anime</a></h4>
+                <h5 class="Celebrity"><i class="fa-solid fa-film"
+                        style="margin-left: -40px;position: absolute;font-size: 1.3em"></i><a
+                        style="color: rgb(255, 255, 255); text-decoration: none;" href="celebrity.html">Celebrity</a>
+                </h5>
+                <h5 class="music"><i class="fa-solid fa-music"
+                        style="margin-left: -40px;position: absolute;font-size: 1.3em"></i><a
+                        style="color: rgb(255, 255, 255); text-decoration: none;" href="music.html">Music</a></h5>
+                <h5 class="aboutus"><i class="fa-solid fa-question"
+                        style="margin-left: -35px;position: absolute;font-size: 1.3em"></i><a
+                        style="color: rgb(255, 255, 255); text-decoration: none;" href="aboutus.html">About Us</a>
+                    <h4>
+        </div>
+
+                    <h4 class="footer-team1">Made with &hearts; by our Amishee</h4>
+                    <h4 class="footer-team2">All &copy; rights  are reserved 
+                        <br>by our company</h4>
+    </div>
+
+    <!-- Integrate the second HTML code here -->
+    <div class="containerspecial">
+        <h1>Trending Topics Based On Sports Categories</h1>
+        <button class="add-post-button">+</button>
+        <div class="posts" id="posts" style="background-color: #242424;">
+            <!-- Default Posts -->
+            <div class="post">
+                <h3 class="post-title">"This would be the biggest fight in the history of the world" - Dana White, UFC President PPV would cost $100 and all proceeds would go to charity
+                </h3>
+                <hr>
+                <img src="assets/elon-vs-mark.webp" style="text-align: center; height: 40%; width: 100%;">
+                <p class="post-content">They’re not the same weight class. Hell, they’re not even the same species.<br>
+
+                    A bit of old wisdom about knife fights: "Loser dies on the street; winner dies in the hospital."<br>
+                </p>
+                <div class="votes">
+                    <span class="upvote"><i class="fa-solid fa-up-long" style="color: #ffffff;"></i></span>
+                    <span class="vote-count">2</span>
+                    <span class="downvote"><i class="fa-solid fa-down-long" style="color: #ffffff;"></i></span>
+                </div>
+            </div>
+            <div class="post">
+                <h3 class="post-title">[Haynes] Los Angeles Lakers star Anthony Davis (head injury) is expected to be available for Game 6 on Friday barring a setback, league sources tell @NBAonTNT, @BleacherReport.</h3>
+                <hr>
+                <img src="assets/anthony.jpg" style="text-align: center; height: 40%; width: 100%;">
+                <p class="post-content">Los Angeles Lakers star Anthony Davis (head injury) is expected to be available for Game 6 on Friday barring a setback, league sources tell @NBAonTNT, @BleacherReport.
+                </p>
+                <div class="votes">
+                    <span class="upvote"><i class="fa-solid fa-up-long" style="color: #ffffff;"></i></span>
+                    <span class="vote-count">5</span>
+                    <span class="downvote"><i class="fa-solid fa-down-long" style="color: #ffffff;"></i></span>
+                </div>
+            </div>
+            <div class="post">
+                <h3 class="post-title">Cristiano Ronaldo: „I won’t return to European football, the door is completely closed“.</h3>
+                <hr>
+                <img src="assets/ronaldo.webp" style="text-align: center; height: 40%; width: 100%;">
+                <p class="post-content">Cristiano Ronaldo: "I won't return to European football, the door is completely closed".
+<br>
+                    "I'm 38 years old, also European football has lost lot of quality... only valid one is Premier League, they're way ahead of all the other leagues".
+                </p>
+                <div class="votes">
+                    <span class="upvote"><i class="fa-solid fa-up-long" style="color: #ffffff;"></i></span>
+                    <span class="vote-count">5</span>
+                    <span class="downvote"><i class="fa-solid fa-down-long" style="color: #ffffff;"></i></span>
+                </div>
+            </div>
+            <div class="post">
+                <h3 class="post-title">Harmanpreet Kaur makes history! First ever female cricketer to get banned by ICC for her next 2 ODIs.</h3>
+                <hr class="horizontal-line">
+                <img src="assets/harman.webp" style="text-align: center; height: 40%; width: 100%;">
+                <p class="post-content">No support for such actions no matter who does it, but both BCB and ICC should also take strict actions against shoddy umpiring and penalise habitual offenders.</p>
+                <div class="votes">
+                    <span class="upvote"><i class="fa-solid fa-up-long" style="color: #ffffff;"></i></span>
+                    <span class="vote-count">5</span>
+                    <span class="downvote"><i class="fa-solid fa-down-long" style="color: #ffffff;"></i></span>
+                </div>
+            </div>
+        </div>
+        <div class="overlay" id="overlay">
+            <div class="popup">
+                <img src="assets/upload.jpg" class="popup-image">
+                <button class="close-button" id="close-button">X</button>
+                <h2 class="create-post-title">Create Post</h2>
+                <input type="text" id="post-title-popup" placeholder="POST TITLE">
+                <textarea id="post-content-popup" placeholder="CONTENT...."></textarea>
+                <input type="file" id="post-image-popup">
+                <button id="submit-post-popup">Submit</button>
+            </div>
+        </div>
+    </div>
+    <script src="home.js"></script>
+</body>
+</html>

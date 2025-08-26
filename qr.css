@@ -1,0 +1,33 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background:linear-gradient(45deg,#ffaf00,#9939bc8e);
+    background-repeat: no-repeat;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85%;
+    width: 100%;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 25%;
+    background-color: #ffffff9f;
+    border-radius: 20px;
+}
+
+.box > img{
+    height: 80%;
+    border-radius: 5px;
+}
